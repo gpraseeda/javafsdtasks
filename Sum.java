@@ -10,7 +10,7 @@ public class Sum {
         for (int i = 1; i <= 5; i++) {
             System.out.print("Number " + i + ": ");
             int num = scanner.nextInt();
-            sum = sum + num;
+            sum += num;
         }
 
         System.out.println("The sum of the 5 numbers is: " + sum);
